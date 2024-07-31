@@ -4,21 +4,6 @@
 
 This project leverages Terraform to automate the creation and management of Spotify playlists. By using Infrastructure as Code (IaC) principles, it allows for programmatic control over your Spotify playlists.
 
-## Project Structure
-
-spotify-playlist-maker/
-│
-├── .terraform/
-│   └── providers/registry.terraform.io/conra...
-├── .env
-├── .terraform.lock.hcl
-├── playlist.tf
-├── provider.tf
-├── terraform.tfstate
-├── terraform.tfstate.backup
-├── terraform.tfvars
-└── variables.tf
-
 ## Prerequisites
 
 - [Terraform](https://www.terraform.io/downloads.html) installed
